@@ -47,7 +47,7 @@ function demographicInfo(sample) {
         let entries = Object.entries(demographicData);
 
         entries.forEach(([key, value]) => {
-            d3.select("#sample-meadata").append("h5").text(`${key}: ${value}`);
+            d3.select("#sample-metadata").append("h5").text(`${key}: ${value}`);
         });
 
         console.log(entries);
