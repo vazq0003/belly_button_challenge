@@ -42,7 +42,7 @@ function demographicInfo(sample) {
         let demographicData = filterMetadata[0];
 
         //clear the metadata in the div
-        d3.select("#sample-meadata").html("");
+        d3.select("#sample-metadata").html("");
 
         let entries = Object.entries(demographicData);
 
